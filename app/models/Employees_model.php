@@ -109,10 +109,18 @@ class Employees_model extends CI_Model {
 
   public function employeeLastPlanDetails ( $employee_id )
   {
-    $plan          = $this->employeeLastPlan ( $employee_id ) ;
-    $vacBalance    = $plan->vacations_balance + $plan->previous_balance - $plan->discounted_balance ;
-    $monthlySalary = $plan->monthly_salary ;
+    $plan                   = $this->employeeLastPlan ( $employee_id ) ;
+    $out_put                = new stdClass () ;
+    //$monthOrder             = date ( 'n' ) ;
+    $monthOrder             = 12 ;
+    $monthFactor            = $monthOrder < 12 ? round ( ( $monthOrder - 1 ) / 12, 4 ) : 1 ;
+    $out_put->vacBalance    = floor ( $monthFactor * $plan->vacations_balance ) + $plan->previous_balance - $plan->discounted_balance ;
+    $out_put->totalBalance  = $plan->vacations_balance + $plan->previous_balance - $plan->discounted_balance ;
+    $out_put->monthlySalary = $plan->monthly_salary ;
+    $out_put->dailySalary   = round ( $out_put->monthlySalary / 30, 2 ) ;
+    $out_put->hourlySalary  = round ( $out_put->dailySalary / 8, 2 ) ;
     
+    return $out_put ;
   }
 
   

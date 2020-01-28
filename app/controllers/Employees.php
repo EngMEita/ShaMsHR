@@ -33,7 +33,10 @@ class Employees extends CI_Controller
   {
     $employees = $this->emp->getEmployees () ;
     $employee  = $employees[0] ;
-    print_r ( $employees ) ;
+    $plan      = $this->emp->employeeLastPlanDetails ( $employee->employee_id ) ;
+    print_r ( $plan ) ;
+
+    
     echo '<br />' ;
     $barcodeGenerator = new \Picqer\Barcode\BarcodeGeneratorSVG () ;
     echo $barcodeGenerator->getBarcode ( '2341682066' , 'C128' ) ;
