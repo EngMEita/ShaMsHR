@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="ArTransliteration.php" server="192.168.1.45//erp/" local="130028546240000000" remote="130862326800000000" Dst="0" />
+<file name="AutoSummarize.php" server="192.168.1.45//erp/" local="130028546280000000" remote="130862326800000000" Dst="0" />
+<file name="CharsetC.php" server="192.168.1.45//erp/" local="130028546200000000" remote="130862326800000000" Dst="0" />
+<file name="CharsetD.php" server="192.168.1.45//erp/" local="130028545860000000" remote="130862326800000000" Dst="0" />
+<file name="City.php" server="192.168.1.45//erp/" local="130028545580000000" remote="130862326800000000" Dst="0" />
+<file name="CompressStr.php" server="192.168.1.45//erp/" local="130028546960000000" remote="130862326800000000" Dst="0" />
+<file name="Date.php" server="192.168.1.45//erp/" local="130028546880000000" remote="130862326800000000" Dst="0" />
+<file name="EnTransliteration.php" server="192.168.1.45//erp/" local="130028546800000000" remote="130862326800000000" Dst="0" />
+<file name="Gender.php" server="192.168.1.45//erp/" local="130028546740000000" remote="130862326800000000" Dst="0" />
+<file name="Glyphs_GD.php" server="192.168.1.45//erp/" local="130028546660000000" remote="130862326800000000" Dst="0" />
+<file name="Glyphs_PDF.php" server="192.168.1.45//erp/" local="130028546600000000" remote="130862326800000000" Dst="0" />
+<file name="Glyphs_SWF.php" server="192.168.1.45//erp/" local="130028546540000000" remote="130862326800000000" Dst="0" />
+<file name="Glyphs_VRML.php" server="192.168.1.45//erp/" local="130028546480000000" remote="130862326800000000" Dst="0" />
+<file name="Hiero.php" server="192.168.1.45//erp/" local="130028548000000000" remote="130862326800000000" Dst="0" />
+<file name="Identifier.php" server="192.168.1.45//erp/" local="130028547920000000" remote="130862326800000000" Dst="0" />
+<file name="Info.php" server="192.168.1.45//erp/" local="130028547860000000" remote="130862326800000000" Dst="0" />
+<file name="KeySwap.php" server="192.168.1.45//erp/" local="130028547760000000" remote="130862326800000000" Dst="0" />
+<file name="Mktime.php" server="192.168.1.45//erp/" local="130028547680000000" remote="130862326800000000" Dst="0" />
+<file name="Moon.php" server="192.168.1.45//erp/" local="130028547620000000" remote="130862326800000000" Dst="0" />
+<file name="Normalise.php" server="192.168.1.45//erp/" local="130028547540000000" remote="130862326800000000" Dst="0" />
+<file name="Numbers.php" server="192.168.1.45//erp/" local="130028637940000000" remote="130862326800000000" Dst="0" />
+<file name="Phoenician.php" server="192.168.1.45//erp/" local="130028547420000000" remote="130862326800000000" Dst="0" />
+<file name="Qibla.php" server="192.168.1.45//erp/" local="130028547360000000" remote="130862326800000000" Dst="0" />
+<file name="Query.php" server="192.168.1.45//erp/" local="130028547300000000" remote="130862326800000000" Dst="0" />
+<file name="SafeUploadTransliteration.php" server="192.168.1.45//erp/" local="130028548340000000" remote="130862326800000000" Dst="0" />
+<file name="Salat.php" server="192.168.1.45//erp/" local="130028548300000000" remote="130862326800000000" Dst="0" />
+<file name="Soundex.php" server="192.168.1.45//erp/" local="130028548220000000" remote="130862326800000000" Dst="0" />
+<file name="Standard.php" server="192.168.1.45//erp/" local="130028548600000000" remote="130862326800000000" Dst="0" />
+<file name="Stemmer.php" server="192.168.1.45//erp/" local="130028548540000000" remote="130862326800000000" Dst="0" />
+<file name="StrToTime.php" server="192.168.1.45//erp/" local="130028548480000000" remote="130862326800000000" Dst="0" />
+<file name="style.css" server="192.168.1.45//erp/" local="129998209000000000" remote="130862326800000000" Dst="0" />
+<file name="WordTag.php" server="192.168.1.45//erp/" local="130028548400000000" remote="130862326800000000" Dst="0" />
+</dwsync>
